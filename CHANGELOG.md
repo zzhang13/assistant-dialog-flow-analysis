@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/zzhang13/assistant-dialog-flow-analysis/compare/v1.0.2...v1.1.0) (2020-06-11)
+
+
+### Features
+
+* update functions ([436fbd1](https://github.com/zzhang13/assistant-dialog-flow-analysis/commit/436fbd1453cbb9d4fa2568b91d9a8b43bcbaa047))
+
 ## [1.0.2](https://github.com/watson-developer-cloud/assistant-dialog-flow-analysis/compare/v1.0.1...v1.0.2) (2020-06-11)
 
 
