@@ -43,7 +43,7 @@ def by_included_node(node, df_logs_formated):
     if filtered_df_logs.empty:
         print('Filtering yielded an empty dataframe. Path flow analysis requires a non-empty dataframe.')
 
-    print('amount of records (before filtering):', len(df_logs_formated))
+    print('Initial amount of records (before filtering):', len(df_logs_formated))
     print('Amount of filtered records:', len(df_logs_formated)-len(filtered_df_logs))
     print('Final amount of records (after filtering):', len(filtered_df_logs))
 
