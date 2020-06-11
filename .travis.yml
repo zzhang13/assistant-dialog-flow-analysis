@@ -32,9 +32,9 @@ deploy:
     python: 3.8
     branch: master
 - provider: pypi
-  user: "$PYPI_USER"
+  user: "__token__"
   password: "$PYPI_PASSWORD"
-  server: https://upload.pypi.org/legacy/
+  server: https://test.pypi.org/legacy/
   skip_cleanup: true
   on:
     python: 3.8
