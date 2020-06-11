@@ -9,6 +9,7 @@
 import os
 import setuptools
 import shutil
+import re
 
 __version__ = '1.1.0'
 
@@ -17,16 +18,14 @@ try:
     from pypandoc import convert_file
 
     def read_md(f):
-        return convert_file(f, 'rst')
+        return re.sub(r'\nContributor List(.*)', '', convert_file(f, 'rst'), flags=re.S)
 
-    # read_md = lambda f: convert(f, 'rst')
 except:
     print('warning: pypandoc module not found, '
           'could not convert Markdown to RST')
 
     def read_md(f):
         return open(f, 'rb').read().decode(encoding='utf-8')
-    # read_md = lambda f: open(f, 'rb').read().decode(encoding='utf-8')
 
 setuptools.setup(
     # Basic info
