@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/zzhang13/assistant-dialog-flow-analysis/compare/v1.4.0...v1.5.0) (2020-06-25)
+
+
+### Features
+
+* update readme ([f5231d4](https://github.com/zzhang13/assistant-dialog-flow-analysis/commit/f5231d42d659034f1eaa8e820c9408def2db3987))
+
 # [1.4.0](https://github.com/zzhang13/assistant-dialog-flow-analysis/compare/v1.3.0...v1.4.0) (2020-06-25)
 
 
