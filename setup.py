@@ -11,7 +11,7 @@ import setuptools
 import shutil
 import re
 
-__version__ = '1.4.0'
+__version__ = '1.5.0'
 
 # Convert README.md to README.rst for pypi
 try:
