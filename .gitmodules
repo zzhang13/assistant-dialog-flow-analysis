@@ -14,3 +14,7 @@
 	path = assistant-improve-recommendations-notebook
 	url = https://github.com/watson-developer-cloud/assistant-improve-recommendations-notebook.git
 	branch = master
+[submodule "test_branch"]
+	path = test_branch
+	url = https://github.com/watson-developer-cloud/assistant-dialog-flow-analysis
+	branch = master
