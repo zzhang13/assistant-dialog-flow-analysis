@@ -10,3 +10,7 @@
 	path = ai-lifecycle/assistant-improve-recommendations-notebook
 	url = git@github.com:watson-developer-cloud/assistant-improve-recommendations-notebook.git
 	branch = master
+[submodule "assistant-improve-recommendations-notebook"]
+	path = assistant-improve-recommendations-notebook
+	url = https://github.com/watson-developer-cloud/assistant-improve-recommendations-notebook.git
+	branch = master
